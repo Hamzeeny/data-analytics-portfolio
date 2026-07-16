@@ -202,11 +202,6 @@ Gives a climate communications team a data-backed view of where to focus outreac
 
 ---
 
-### 🇳🇬 Nigeria Budget Storytelling
-*(Coming soon — in progress with team)*
-
----
-
 ## 🛠️ Tools & Skills
 
 `Excel` `SQL` `MySQL` `PostgreSQL` `Power BI` `Tableau` `PivotTables` `Window Functions` `CTEs` `Data Cleaning` `Data Visualization` `Stakeholder Reporting` `Storytelling`
