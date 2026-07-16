@@ -4,7 +4,7 @@ Data Analyst passionate about using data to solve real-world business problems. 
 
 This portfolio showcases projects across Excel, SQL, and BI tools where I analyzed data, built dashboards, and generated insights to support decision-making in business, social, and public sector contexts. Each project below includes the full business story — problem, approach, findings, and value — with a link to the technical documentation for anyone who wants to verify the methodology.
 
-📫 your.email@example.com | 💼 [LinkedIn](https://www.linkedin.com/in/your-linkedin/)
+📫 zeenatolawumi@gmail.com | 💼 [LinkedIn](add)
 
 ---
 
