@@ -23,7 +23,7 @@ Built an interactive Excel dashboard using PivotTables and PivotCharts to analyz
 **What I Found**
 Higher-income customers, especially in Professional and Skilled Manual occupations, and those living within 0–1 miles of the store were far more likely to buy. Middle-aged customers also purchased at higher rates than younger or older groups.
 
-**Business Value**
+**Business Value:**
 This gives the marketing team a clear, data-backed customer profile to prioritize — rather than guessing who to target.
 
 ➡️ [Technical Documentation](./Excel-Projects/Bike-Sales-Dashboard/README.md) *(pivot table setup, data structure, full methodology)*
@@ -43,7 +43,7 @@ Consolidated five years of World Happiness Report data (originally spread across
 **What I Found**
 Global happiness stayed relatively stable from 2015–2019. Australia & New Zealand and North America consistently ranked highest, while Sub-Saharan Africa consistently ranked lowest — a persistent regional gap. Higher GDP per capita, stronger social support, and better health outcomes were all associated with higher happiness scores.
 
-**Business Value**
+**Business Value:**
 This gives policymakers or researchers an evidence-based view of which levers (economic vs. social vs. health) are most associated with well-being, and highlights which regions show the widest gaps and may need the most support.
 
 ➡️ [Technical Documentation](./Excel-Projects/World-Happiness-Analysis/README.md) *(data cleaning steps, methodology, limitations)*
