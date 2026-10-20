@@ -76,7 +76,7 @@ This cleaned view became the single foundation for every subsequent analytical v
 ## Files in This Folder
 - `data_prep.sql` — full PostgreSQL script: ingestion, quality checks, cleaned view, and all analytical views
 - `climate-change-twitter-dataset-analysis-report.pdf` — full written report and findings
-- `dashboard.pdf` — exported Power BI dashboard (all 4 pages)
+- `Dashboard.pdf` — exported Power BI dashboard (all 4 pages)
 - `dashboard-executive-summary.png`, `dashboard-stance-analysis.png`, `dashboard-topic-aggression.png`, `dashboard-geographic-analysis.png` — individual dashboard page screenshots
 
 ⬅️ [Back to main portfolio](../../README.md)
