@@ -2,6 +2,8 @@
 -- Identify the top 10 products by total revenue in 2024.
 -- Include product name, category, total revenue, and total number of orders.
 -- Sort results by revenue in descending order.
+-- Revenue definition: orders with status Cancelled or Returned are excluded,
+-- since that value was never retained. Revenue = Processing, Shipped and Delivered orders.
 
 SELECT
     p.product_id,
@@ -16,6 +18,7 @@ JOIN products p
     ON oi.product_id = p.product_id
 WHERE o.order_date >= DATE '2024-01-01'
   AND o.order_date < DATE '2025-01-01'
+  AND o.order_status NOT IN ('Cancelled', 'Returned')
 GROUP BY
     p.product_id,
     p.product_name,

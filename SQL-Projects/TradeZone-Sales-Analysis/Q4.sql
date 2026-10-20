@@ -2,6 +2,8 @@
 -- Compare quarterly revenue across 2023 and 2024.
 -- For each quarter, calculate total revenue, average order value,
 -- and total number of orders.
+-- Revenue definition: orders with status Cancelled or Returned are excluded,
+-- since that value was never retained. Revenue = Processing, Shipped and Delivered orders.
 
 SELECT
     EXTRACT(YEAR FROM order_date) AS year,
@@ -12,6 +14,7 @@ SELECT
 FROM orders
 WHERE order_date >= DATE '2023-01-01'
   AND order_date < DATE '2025-01-01'
+  AND order_status NOT IN ('Cancelled', 'Returned')
 GROUP BY
     year,
     quarter
@@ -30,6 +33,7 @@ WITH quarterly_data AS (
     FROM orders
     WHERE order_date >= DATE '2023-01-01'
       AND order_date < DATE '2025-01-01'
+      AND order_status NOT IN ('Cancelled', 'Returned')
     GROUP BY year, quarter
 ),
 
