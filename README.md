@@ -153,12 +153,12 @@ TradeZone (an e-commerce platform) needed a full performance review of 2023–20
 
 **What I Did:**
 
-Using PostgreSQL, I first ran a full data quality audit across all six tables (customers, sellers, products, orders, order_items, payments, reviews) — checking for missing values, duplicates, and inconsistent formatting — then applied targeted, justified fixes for each issue (e.g. category-level price imputation, standardized city names). I then wrote 8 analytical queries covering customer acquisition, product performance, seller fulfilment, quarterly trends, spend segmentation, payment preferences, and rating impact, and delivered the findings as a stakeholder memo with concrete recommendations.
+Using PostgreSQL, I first ran a full data quality audit across all seven tables (customers, sellers, products, orders, order_items, payments, reviews) — checking for missing values, duplicates, and inconsistent formatting — then applied targeted, justified fixes for each issue (e.g. category-level price imputation, standardized city names). I then wrote 8 analytical queries covering customer acquisition, product performance, seller fulfilment, quarterly trends, spend segmentation, payment preferences, and rating impact, and delivered the findings as a stakeholder memo with concrete recommendations.
 
 **What I Found:**
 
-- **Revenue grew strongly through 2023–2024, with Q4 growth of ~₦290M** over the prior year — driven mainly by order volume rather than higher average order value, suggesting a seasonal/peak-period dependency worth planning around.
-- **High spenders account for over 95% of 2024 revenue**, with just 600+ customers driving the vast majority of earnings — a concentration risk if that segment churns.
+- **Revenue grew strongly through 2023–2024, with Q4 growth of ~₦213M** (excluding cancelled and returned orders) over the prior year — driven mainly by order volume rather than higher average order value, suggesting a seasonal/peak-period dependency worth planning around.
+- **High spenders account for about 99% of 2024 revenue**, with just 500+ customers driving the vast majority of earnings — a concentration risk if that segment churns.
 - **All top 10 revenue-generating products are Electronics**, and mid-rated products actually outperformed highly-rated ones in total revenue — suggesting price and necessity drive purchases more than review scores.
 
 **Business Value:**
