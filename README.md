@@ -188,7 +188,7 @@ Built an interactive Tableau dashboard analyzing sales, product, regional, and o
 - Total revenue was **$1,265,793 across 830 orders**, averaging **$1,525 per order** — a business model built on higher-value transactions rather than high volume.
 - Revenue and order volume both trended upward over the period, suggesting genuine, activity-driven growth rather than just price increases.
 - **Beverages and Dairy Products led all categories**, with Confections and Meat & Poultry close behind — revenue is concentrated in a few key categories.
-- **Discounting did not meaningfully increase revenue** — the highest revenue actually occurred at 0% discount, suggesting margin-eroding discounts weren't being offset by higher sales volume.
+- Most revenue (59%) came from undiscounted sales, and higher discounts did not reliably bring in more revenue — a signal to test discounting more carefully rather than apply it broadly.
 - **USA and Germany were the top markets** ($245,585 and close behind, respectively), followed by Austria ($128,004), Brazil ($106,926), and France ($81,358) — a concentrated but genuinely international customer base.
 - At the product level, **Côte de Blaye alone generated $141,396.73** — nearly double the next highest product — showing revenue concentration extends down to individual SKUs, not just categories.
 - Shipping costs totaled **$64,943** (~5.13% of revenue) — a well-controlled logistics cost ratio that held steady even as regional revenue scaled up.
