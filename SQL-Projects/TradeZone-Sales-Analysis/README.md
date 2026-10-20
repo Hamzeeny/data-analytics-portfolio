@@ -89,8 +89,8 @@ Identified the top 10 sellers by 2024 revenue, restricted to those with at least
 
 ## Files in This Folder
 - `cleaned_dump.sql` — cleaned database dump used as the basis for all analytical queries
-- `part_1.sql` — full data cleaning and quality audit script
-- `q1.sql` through `q8.sql` — the 8 analytical queries
-- `analyst_memo.pdf` — stakeholder-facing memo with executive summary, findings, and recommendations
+- `Part 1.sql` — full data cleaning and quality audit script
+- `Q1.sql` through `Q8.sql` — the 8 analytical queries
+- `Analyst_Memo.pdf` — stakeholder-facing memo with executive summary, findings, and recommendations
 
 ⬅️ [Back to main portfolio](../../README.md)
