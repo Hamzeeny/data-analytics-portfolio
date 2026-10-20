@@ -6,7 +6,7 @@ For the business context and full findings, see the [main portfolio README](../.
 
 ## Dataset
 
-A PostgreSQL e-commerce database (TradeZone) with six related tables: `customers`, `sellers`, `products`, `orders`, `order_items`, `payments`, and `reviews`, covering activity from 2023–2024.
+A PostgreSQL e-commerce database (TradeZone) with seven related tables: `customers`, `sellers`, `products`, `orders`, `order_items`, `payments`, and `reviews`, covering activity from 2023–2024.
 
 ## Part 1: Data Cleaning & Quality Audit
 
