@@ -43,7 +43,7 @@ This cleaned view became the single foundation for every subsequent analytical v
 
 **Performance note:** since views execute against the underlying table each time they're queried, indexes were added directly on the raw table (`created_at`, `stance`, `topic`, `aggressiveness`) — not on the views themselves — to keep query times reasonable against a 15M+ row table.
 
-**A real debugging moment worth documenting:** the first version of `vw_location_sentiment` used `ROUND(lat, 1)` directly and threw a type error, since `lat` was still text-derived at that point in the pipeline. The fix was to cast explicitly before rounding: `ROUND(lat::numeric, 1)`. This kind of cast-then-round pattern matters whenever a column's underlying type isn't guaranteed to already be numeric.
+**A real debugging moment worth documenting:** the first version of `vw_location_sentiment` used `ROUND(lat, 1)` directly and threw a type error, since PostgreSQL’s two-argument ROUND only accepts numeric, and lat was a FLOAT at that point. The fix was to cast explicitly before rounding: ROUND(lat::numeric, 1). This cast-then-round pattern matters whenever a column is stored as a floating-point type.
 
 ## Part 3: Analysis (Descriptive & Diagnostic)
 
